@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "preserve",
+    "target": "esnext",
+    "types": [],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "jsx": "preserve",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": false
+  },
+  "include": [
+    "src/**/*",
+    "*.ts",
+    "*.js"
+  ],
+  "exclude": [
+    "index.js",
+    "node_modules"
+  ]
+}

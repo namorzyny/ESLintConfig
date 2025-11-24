@@ -1,3 +1,5 @@
+/src/
 /.editorconfig
-/.eslintrc.js
+/eslint.config.ts
 /pnpm-lock.yaml
+/tsconfig.json
