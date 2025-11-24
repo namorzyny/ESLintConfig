@@ -1,0 +1,27 @@
+{
+  "name": "@namorzyny/eslint-config",
+  "version": "2.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "pnpm@10.23.0",
+  "peerDependencies": {
+    "eslint": ">=8.56.0 <9",
+    "@typescript-eslint/eslint-plugin": ">=5 <9",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": ">=4 <8"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    }
+  }
+}
