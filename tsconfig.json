@@ -4,7 +4,7 @@
     "target": "esnext",
     "types": [],
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "noEmit": true,
     "outDir": "dist",
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
@@ -14,7 +14,10 @@
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": false
+    "skipLibCheck": true,
+    "paths": {
+        "@typescript-eslint/eslint-plugin/dist": ["./node_modules/@typescript-eslint/eslint-plugin/dist/index.d.ts"],
+    }
   },
   "include": [
     "src/**/*",

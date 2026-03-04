@@ -1,7 +1,7 @@
 import type {Linter} from 'eslint';
-import type rules from '@typescript-eslint/eslint-plugin/use-at-your-own-risk/rules';
+import type tseslint from '@typescript-eslint/eslint-plugin/dist';
 
-type Rules = typeof rules;
+type Rules = typeof tseslint.rules;
 
 export type RuleRecord = Partial<{
     [RuleName in keyof Rules]: Linter.RuleEntry<Rules[RuleName]['defaultOptions']>

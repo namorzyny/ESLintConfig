@@ -1,5 +1,5 @@
 import {defineConfig} from 'eslint/config';
-import {configs} from './src';
+import configs from './src';
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 
@@ -22,5 +22,6 @@ export default defineConfig([
             '@typescript-eslint/no-unused-vars': ['error', {varsIgnorePattern: '^[A-Z]'}],
         },
     },
-    configs.all,
+    configs.stylistic.base,
+    configs.stylistic.common,
 ]);
